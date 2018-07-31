@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Relative URL Templates</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>Welcome to relative URL templates!</h1>
+    <a href="{% url 'basic_app:other' %}">Other page</a>
+    <br>
+    <br>
+    <a href="{% url 'admin:index' %}">Admin page</a>
+    <br>
+    <br>
+    <a href="{% url 'index' %}">Link to index!</a>
+</body>
+
+</html>
