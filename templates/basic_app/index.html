@@ -5,5 +5,10 @@
 
 	<h1>Welcome to home!</h1>
 	<h2>This is index.html page showing!</h2>
+	<div class="container mt-5 text-primary">
+		<h1>{{ text|cut:'world' }}</h1>
+		<h1>{{ number|add:"320" }}</h1>
+	</div>
+	
 
 {% endblock %}
